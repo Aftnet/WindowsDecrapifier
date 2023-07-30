@@ -33,9 +33,6 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\EdgeUI]
 "Enabled"=dword:00000000
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\EdgeUI]
-"Enabled"=dword:00000000
-
 
 ; Disable optional telemetry
 
@@ -82,12 +79,50 @@ Windows Registry Editor Version 5.00
 "IsDynamicSearchBoxEnabled"=dword:00000000
 
 
-; Disable Sidebar and Bing Chatbot in Edge
+; Disable Edge tracking/other crap
+; From https://learn.microsoft.com/en-us/deployedge/microsoft-edge-policies
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge]
+"AdsSettingForIntrusiveAdsSites"=dword:00000002
+"AlternateErrorPagesEnabled"=dword:00000000
+"ConfigureDoNotTrack"=dword:00000001
+"CryptoWalletEnabled"=dword:00000000
+"DefaultBrowserSettingsCampaignEnabled"=dword:00000000
+"DefaultNotificationsSetting=dword:00000002
+"DiagnosticData"=dword:00000000
+"EdgeCollectionsEnabled"=dword:00000000
+"EdgeDiscoverEnabled"=dword:00000000
+"EdgeEDropEnabled"=dword:00000000
+"EdgeEnhanceImagesEnabled"=dword:00000000
+"EdgeFollowEnabled"=dword:00000000
+"EdgeShoppingAssistantEnabled"=dword:00000000
+"EdgeWalletCheckoutEnabled"=dword:00000000
+"EdgeWalletEtreeEnabled"=dword:00000000
+"ExperimentationAndConfigurationServiceControl"=dword:00000000
+"HomepageIsNewTabPage"=dword:00000000
 "HubsSidebarEnabled"=dword:00000000
-
-; Disable Edge Personalize your web experience prompt
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge]
+"MicrosoftEdgeInsiderPromotionEnabled"=dword:00000000
+"MicrosoftEditorProofingEnabled"=dword:00000000
+"MicrosoftEditorSynonymsEnabled"=dword:00000000
+"NewTabPageAppLauncherEnabled"=dword:00000000
+"NewTabPageContentEnabled"=dword:00000000
+"NewTabPageHideDefaultTopSites"=dword:00000000
+"NewTabPagePrerenderEnabled"=dword:00000000
+"NewTabPageQuickLinksEnabled"=dword:00000000
 "PersonalizationReportingEnabled"=dword:00000000
+"PinningWizardAllowed"=dword:00000000
+"PromotionalTabsEnabled"=dword:00000000
+"QuickSearchShowMiniMenu"=dword:00000000
+"RelatedMatchesCloudServiceEnabled"=dword:00000000
+"SearchForImageEnabled"=dword:00000000
+"SearchInSidebarEnabled"=dword:00000002 ; Not a typo
+"SearchSuggestEnabled"=dword:00000000
+"ShowAcrobatSubscriptionButton"=dword:00000000
+"ShowMicrosoftRewards"=dword:00000000
+"ShowRecommendationsEnabled"=dword:00000000
+"SmartScreenPuaEnabled"=dword:00000000
+"StartupBoostEnabled"=dword:00000000
+"TabServicesEnabled"=dword:00000000
+"TextPredictionEnabled"=dword:00000000
+"TrackingPrevention"=dword:00000003
+"WalletDonationEnabled"=dword:00000000
