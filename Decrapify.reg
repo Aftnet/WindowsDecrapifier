@@ -107,6 +107,7 @@ Windows Registry Editor Version 5.00
 "NewTabPageAppLauncherEnabled"=dword:00000000
 "NewTabPageContentEnabled"=dword:00000000
 "NewTabPageHideDefaultTopSites"=dword:00000000
+"NewTabPageLocation"="about:blank"
 "NewTabPagePrerenderEnabled"=dword:00000000
 "NewTabPageQuickLinksEnabled"=dword:00000000
 "PersonalizationReportingEnabled"=dword:00000000
@@ -125,4 +126,7 @@ Windows Registry Editor Version 5.00
 "TabServicesEnabled"=dword:00000000
 "TextPredictionEnabled"=dword:00000000
 "TrackingPrevention"=dword:00000003
+"TravelAssistanceEnabled"=dword:00000000
+"TyposquattingCheckerEnabled"=dword:00000000
+"VisualSearchEnabled"=dword:00000000
 "WalletDonationEnabled"=dword:00000000
