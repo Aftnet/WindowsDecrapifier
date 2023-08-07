@@ -95,6 +95,12 @@ Windows Registry Editor Version 5.00
 "IsDynamicSearchBoxEnabled"=dword:00000000
 
 
+; Disable Windows AutoRun on all devices
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"NoDriveTypeAutoRun"=dword:000000FF
+
+
 ; Disable Edge tracking/other crap
 ; From https://learn.microsoft.com/en-us/deployedge/microsoft-edge-policies
 
