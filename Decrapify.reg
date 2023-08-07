@@ -1,6 +1,8 @@
 Windows Registry Editor Version 5.00
 
+
 ; Fake MDM enrollment - needed to apply policies restricted to MDM managed devices
+
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Enrollments\FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF] 
 "EnrollmentState"=dword:00000001 
 "EnrollmentType"=dword:00000000 
@@ -12,6 +14,7 @@ Windows Registry Editor Version 5.00
 "RoamingCount"=dword:00000000
 "SslClientCertReference"="MY;User;0000000000000000000000000000000000000000"
 "ProtoVer"="1.2"
+
 
 ; Disable personalized ads and ad ID
 
