@@ -35,6 +35,7 @@ Windows Registry Editor Version 5.00
 "SlideshowEnabled"=dword:00000000
 "SoftLandingEnabled"=dword:00000000
 "SubscribedContent-310093Enabled"=dword:00000000
+"SubscribedContent-314559Enabled"=dword:00000000
 "SubscribedContent-338387Enabled"=dword:00000000
 "SubscribedContent-338388Enabled"=dword:00000000
 "SubscribedContent-338389Enabled"=dword:00000000
@@ -76,6 +77,12 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Explorer]
 "DisableSearchBoxSuggestions"=dword:00000001
+
+
+; Disable Copilot
+
+[HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\WindowsCopilot]
+"TurnOffWindowsCopilot"=dword:00000001
 
 
 ; Disable Microsoft account content search in Start menu
