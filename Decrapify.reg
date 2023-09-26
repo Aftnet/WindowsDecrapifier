@@ -114,6 +114,7 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge]
 "AdsSettingForIntrusiveAdsSites"=dword:00000002
 "AlternateErrorPagesEnabled"=dword:00000000
+"BackgroundModeEnabled"=dword:00000000
 "ConfigureDoNotTrack"=dword:00000001
 "CryptoWalletEnabled"=dword:00000000
 "DefaultBrowserSettingsCampaignEnabled"=dword:00000000
