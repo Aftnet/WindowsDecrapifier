@@ -181,3 +181,12 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook\Options\General]
 "HideNewOutlookToggle"=dword:00000001
+
+
+; Disable OneDrive spam
+; From https://learn.microsoft.com/en-us/sharepoint/use-group-policy
+
+[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]
+"DisableNewAccountDetection"=dword:00000001
+"DisableTutorial"=dword:00000001
+"KFMBlockOptIn"=dword:00000001
