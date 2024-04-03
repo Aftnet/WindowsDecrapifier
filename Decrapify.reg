@@ -119,7 +119,7 @@ Windows Registry Editor Version 5.00
 ; From https://www.thewindowsclub.com/enable-or-disable-sync-provider-notification-in-window
 
 [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
-"ShowSyncProviderNotification"=dword:00000000
+"ShowSyncProviderNotifications"=dword:00000000
 
 
 ; Disable Edge tracking/other crap
