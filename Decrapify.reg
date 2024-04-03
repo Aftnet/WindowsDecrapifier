@@ -26,6 +26,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager]
 "ContentDeliveryAllowed"=dword:00000000
+"FeatureManagementEnabled"=dword:00000000
 "OemPreInstalledAppsEnabled"=dword:00000000
 "PreInstalledAppsEnabled"=dword:00000000
 "PreInstalledAppsEverEnabled"=dword:00000000
@@ -34,6 +35,7 @@ Windows Registry Editor Version 5.00
 "SilentInstalledAppsEnabled"=dword:00000000
 "SlideshowEnabled"=dword:00000000
 "SoftLandingEnabled"=dword:00000000
+"SubscribedContentEnabled"=dword:00000000
 "SubscribedContent-310093Enabled"=dword:00000000
 "SubscribedContent-314559Enabled"=dword:00000000
 "SubscribedContent-338387Enabled"=dword:00000000
@@ -165,3 +167,9 @@ Windows Registry Editor Version 5.00
 "TyposquattingCheckerEnabled"=dword:00000000
 "VisualSearchEnabled"=dword:00000000
 "WalletDonationEnabled"=dword:00000000
+
+; Disable the New Outlook toggle in Outlook Desktop
+; From https://learn.microsoft.com/en-us/exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/enable-disable-employee-access-new-outlook
+
+[HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook\Options\General]
+"HideNewOutlookToggle"=dword:00000001
