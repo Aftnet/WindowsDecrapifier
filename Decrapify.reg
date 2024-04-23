@@ -129,6 +129,7 @@ Windows Registry Editor Version 5.00
 "AdsSettingForIntrusiveAdsSites"=dword:00000002
 "AlternateErrorPagesEnabled"=dword:00000000
 "BackgroundModeEnabled"=dword:00000000
+"ComposeInlineEnabled"=dword:00000000
 "ConfigureDoNotTrack"=dword:00000001
 "CopilotPageContext"=dword:00000000
 "CopilotCDPPageContext"=dword:00000000
