@@ -130,10 +130,13 @@ Windows Registry Editor Version 5.00
 "AlternateErrorPagesEnabled"=dword:00000000
 "BackgroundModeEnabled"=dword:00000000
 "ConfigureDoNotTrack"=dword:00000001
+"CopilotPageContext"=dword:00000000
+"CopilotCDPPageContext"=dword:00000000
 "CryptoWalletEnabled"=dword:00000000
 "DefaultBrowserSettingsCampaignEnabled"=dword:00000000
 "DefaultNotificationsSetting=dword:00000002
 "DiagnosticData"=dword:00000000
+"DiscoverPageContextEnabled"=dword:00000000
 "EdgeCollectionsEnabled"=dword:00000000
 "EdgeDiscoverEnabled"=dword:00000000
 "EdgeEDropEnabled"=dword:00000000
