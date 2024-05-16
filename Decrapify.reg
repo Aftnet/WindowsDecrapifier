@@ -115,6 +115,7 @@ Windows Registry Editor Version 5.00
 "Start_AccountNotifications"=dword:00000000
 "Start_IrisRecommendations"=dword:00000000
 
+
 ; Disable ads in File Explorer
 ; From https://www.thewindowsclub.com/enable-or-disable-sync-provider-notification-in-window
 
