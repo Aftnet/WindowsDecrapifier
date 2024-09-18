@@ -224,3 +224,9 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
 "MultiTaskingAltTabFilter"=dword:00000003
+
+; Disable "Let's finish setting up your device"
+; from https://www.elevenforum.com/t/enable-or-disable-lets-finish-setting-up-your-device-in-windows-11.5205/
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\UserProfileEngagement]
+"ScoobeSystemSettingEnabled"=dword:00000000
