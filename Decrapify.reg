@@ -238,7 +238,7 @@ Windows Registry Editor Version 5.00
 ; from https://www.elevenforum.com/t/enable-or-disable-recall-snapshots-in-windows-11.25460/
 
 [HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\WindowsAI]
-“DisableAIDataAnalysis”=dword:00000001
+"DisableAIDataAnalysis"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsAI]
-“DisableAIDataAnalysis”=dword:00000001
+"DisableAIDataAnalysis"=dword:00000001
