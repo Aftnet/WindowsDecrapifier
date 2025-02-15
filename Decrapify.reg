@@ -139,6 +139,12 @@ Windows Registry Editor Version 5.00
 "ShowSyncProviderNotifications"=dword:00000000
 
 
+; Disable spam notifications from "Suggested" app
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Notifications\Settings\Windows.SystemToast.Suggested]
+"Enabled"=dword:00000000
+
+
 ; Disable Windows AutoRun on all devices
 
 [HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer]
