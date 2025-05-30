@@ -251,6 +251,12 @@ Windows Registry Editor Version 5.00
 "AllowRecallEnablement"=dword:00000000
 
 
+; Disable Mobile pane in Start menu
+; from https://www.elevenforum.com/t/add-or-remove-phone-link-mobile-device-on-start-menu-in-windows-11.26919/
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Start\Companions\Microsoft.YourPhone_8wekyb3d8bbwe]
+"IsEnabled"=dword:00000000
+
 ; Disable Office connected experiences and telemetry (spying on documents content)
 
 [HKEY_CURRENT_USER\Software\Policies\Microsoft\office\16.0\common\privacy]
