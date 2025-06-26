@@ -246,11 +246,12 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\WindowsAI]
 "DisableAIDataAnalysis"=dword:00000001
+"DisableClickToDo"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsAI]
 "DisableAIDataAnalysis"=dword:00000001
 "AllowRecallEnablement"=dword:00000000
-
+"DisableClickToDo"=dword:00000001
 
 ; Disable Click to Do
 ; from https://www.elevenforum.com/t/enable-or-disable-click-to-do-in-windows-11.35166/
