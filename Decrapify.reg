@@ -276,3 +276,10 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Policies\Microsoft\office\common\clienttelemetry]
 "sendtelemetry"=dword:00000001
+
+
+; Disable AI in Notepad
+; from https://learn.microsoft.com/en-us/windows/client-management/manage-notepad?tabs=reg
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\WindowsNotepad]
+"DisableAIFeatures"=dword:00000001
