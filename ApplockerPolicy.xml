@@ -1,0 +1,78 @@
+<AppLockerPolicy Version="1">
+    <RuleCollection Type="Appx" EnforcementMode="NotConfigured">
+        <FilePublisherRule Id="a9e18c21-ff8f-43cf-b9fc-db40eed693ba" Name="Allow signed packaged apps" Description="" UserOrGroupSid="S-1-1-0" Action="Allow">
+            <Conditions>
+                <FilePublisherCondition PublisherName="*" ProductName="*" BinaryName="*">
+                    <BinaryVersionRange LowSection="*" HighSection="*" />
+                </FilePublisherCondition>
+            </Conditions>
+        </FilePublisherRule>
+        <FilePublisherRule Id="7e030fee-40a1-4131-86a8-27b03c1ba607" Name="Deny Copilot App" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+            <Conditions>
+                <FilePublisherCondition PublisherName="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" ProductName="Microsoft.Copilot" BinaryName="*">
+                    <BinaryVersionRange LowSection="*" HighSection="*" />
+                </FilePublisherCondition>
+            </Conditions>
+        </FilePublisherRule>
+        <FilePublisherRule Id="6854b17b-4c07-4d6a-b974-3b637f4cce4b" Name="Deny Bing News App" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+            <Conditions>
+                <FilePublisherCondition PublisherName="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" ProductName="Microsoft.BingNews" BinaryName="*">
+                    <BinaryVersionRange LowSection="*" HighSection="*" />
+                </FilePublisherCondition>
+            </Conditions>
+        </FilePublisherRule>
+        <FilePublisherRule Id="c1c2db7b-04b9-44d5-8826-c7f955c85954" Name="Deny Clipchamp App" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+            <Conditions>
+                <FilePublisherCondition PublisherName="CN=33F0F141-36F3-4EC2-A77D-51B53D0BA0E4" ProductName="Clipchamp.Clipchamp" BinaryName="*">
+                    <BinaryVersionRange LowSection="*" HighSection="*" />
+                </FilePublisherCondition>
+            </Conditions>
+        </FilePublisherRule>
+        <FilePublisherRule Id="475c4fb3-99f9-403e-b701-ee917ea4f185" Name="Deny Web Wrapper Outlook App" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+            <Conditions>
+                <FilePublisherCondition PublisherName="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" ProductName="Microsoft.OutlookForWindows" BinaryName="*">
+                    <BinaryVersionRange LowSection="*" HighSection="*" />
+                </FilePublisherCondition>
+            </Conditions>
+        </FilePublisherRule>
+        <FilePublisherRule Id="5dafa6ca-77e1-4cde-baab-f2f085f54574" Name="Deny Office Hub / Microsoft 365 Copilot App" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+            <Conditions>
+                <FilePublisherCondition PublisherName="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" ProductName="Microsoft.MicrosoftOfficeHub" BinaryName="*">
+                    <BinaryVersionRange LowSection="*" HighSection="*" />
+                </FilePublisherCondition>
+            </Conditions>
+        </FilePublisherRule>
+        <FilePublisherRule Id="935b16f8-51ce-4dde-8577-69a60ce01a63" Name="Deny Killer Control Center App" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+            <Conditions>
+                <FilePublisherCondition PublisherName="CN=EB742617-4934-4951-8B93-E211D04E5A38" ProductName="RivetNetworks.KillerControlCenter" BinaryName="*">
+                    <BinaryVersionRange LowSection="*" HighSection="*" />
+                </FilePublisherCondition>
+            </Conditions>
+        </FilePublisherRule>
+        <FilePublisherRule Id="ffc01db9-7044-4847-bd03-1e7ab1b46ff1" Name="Deny Instagram Publisher" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+            <Conditions>
+                <FilePublisherCondition PublisherName="CN=6E08453F-9BA7-4311-999C-D22FBA2FB1B8" ProductName="*" BinaryName="*">
+                    <BinaryVersionRange LowSection="*" HighSection="*" />
+                </FilePublisherCondition>
+            </Conditions>
+        </FilePublisherRule>
+        <FilePublisherRule Id="21d2c759-b6b6-4d7a-b3c5-9576be64c1ec" Name="Deny Facebook Publisher" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+            <Conditions>
+                <FilePublisherCondition PublisherName="CN=6E08453F-9BA7-4311-999C-D22FBA2FB1B8" ProductName="*" BinaryName="*">
+                    <BinaryVersionRange LowSection="*" HighSection="*" />
+                </FilePublisherCondition>
+            </Conditions>
+        </FilePublisherRule>
+        <FilePublisherRule Id="014e08ad-f505-4967-bf76-7ce007dfd885" Name="Deny Pinterest Publisher" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+            <Conditions>
+                <FilePublisherCondition PublisherName="CN=C60EF6C9-8257-4B6A-83A2-9165F5517F7E" ProductName="*" BinaryName="*">
+                    <BinaryVersionRange LowSection="*" HighSection="*" />
+                </FilePublisherCondition>
+            </Conditions>
+        </FilePublisherRule>
+    </RuleCollection>
+    <RuleCollection Type="Dll" EnforcementMode="NotConfigured" />
+    <RuleCollection Type="Exe" EnforcementMode="NotConfigured" />
+    <RuleCollection Type="Msi" EnforcementMode="NotConfigured" />
+    <RuleCollection Type="Script" EnforcementMode="NotConfigured" />
+</AppLockerPolicy>
