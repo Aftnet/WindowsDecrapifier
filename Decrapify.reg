@@ -251,6 +251,13 @@ Windows Registry Editor Version 5.00
 "AllowRecallEnablement"=dword:00000000
 
 
+; Disable Click to Do
+; from https://www.elevenforum.com/t/enable-or-disable-click-to-do-in-windows-11.35166/
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\Shell\ClickToDo]
+"DisableClickToDo"=dword:00000001
+
+
 ; Disable Mobile pane in Start menu
 ; from https://www.elevenforum.com/t/add-or-remove-phone-link-mobile-device-on-start-menu-in-windows-11.26919/
 
