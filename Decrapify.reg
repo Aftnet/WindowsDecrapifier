@@ -241,7 +241,7 @@ Windows Registry Editor Version 5.00
 "ScoobeSystemSettingEnabled"=dword:00000000
 
 
-; Disable Windows Recall
+; Disable Windows Recall, Click to Do, Cocreator
 ; from https://www.elevenforum.com/t/enable-or-disable-recall-snapshots-in-windows-11.25460/ and https://www.windowslatest.com/2025/04/28/disable-remove-recall-feature-in-windows-11/
 
 [HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\WindowsAI]
@@ -249,9 +249,11 @@ Windows Registry Editor Version 5.00
 "DisableClickToDo"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsAI]
-"DisableAIDataAnalysis"=dword:00000001
 "AllowRecallEnablement"=dword:00000000
+"DisableAIDataAnalysis"=dword:00000001
 "DisableClickToDo"=dword:00000001
+"DisableCocreator"=dword:00000001
+
 
 ; Disable Click to Do
 ; from https://www.elevenforum.com/t/enable-or-disable-click-to-do-in-windows-11.35166/
@@ -284,3 +286,22 @@ Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\WindowsNotepad]
 "DisableAIFeatures"=dword:00000001
+
+
+; Disable AI in Paint
+; from https://github.com/zoicware/RemoveWindowsAI/blob/main/RemoveWindowsAi.ps1
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PolicyManager\default\WindowsAI\DisableCocreator]
+"Behavior"=dword:00102020
+"highrange"=dword:00000001
+"lowrange"=dword:00000000
+"mergealgorithm"=dword:00000001
+"policytype"=dword:00000004
+"RegKeyPathRedirect"="Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Paint"
+"RegValueNameRedirect"="DisableCocreator"
+"value"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Paint]
+"DisableCocreator"=dword:00000001
+"DisableGenerativeFill"=dword:00000001
+"DisableImageCreator"=dword:00000001
