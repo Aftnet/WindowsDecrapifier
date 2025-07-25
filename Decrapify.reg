@@ -170,7 +170,7 @@ Windows Registry Editor Version 5.00
 "DefaultNotificationsSetting"=dword:00000002
 "DefaultSearchProviderEnabled"=dword:00000001
 "DefaultSearchProviderName"="DuckDuckGo"
-"DefaultSearchProviderSearchURL"="url: https://duckduckgo.com/?q={searchTerms}&kp=-2&kz=-1&k1=-1"
+"DefaultSearchProviderSearchURL"="https://duckduckgo.com/?q={searchTerms}&kbe=0&kp=-2&kz=-1&kav=1&k1=-1&kaj=m&kak=-1&kax=-1&kaq=-1&kap=-1&kao=-1&kau=-1&kbg=-1"
 "DiagnosticData"=dword:00000000
 "DiscoverPageContextEnabled"=dword:00000000
 "EdgeCollectionsEnabled"=dword:00000000
