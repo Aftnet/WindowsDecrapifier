@@ -167,7 +167,8 @@ Windows Registry Editor Version 5.00
 "CopilotCDPPageContext"=dword:00000000
 "CryptoWalletEnabled"=dword:00000000
 "DefaultBrowserSettingsCampaignEnabled"=dword:00000000
-"DefaultNotificationsSetting=dword:00000002
+"DefaultNotificationsSetting"=dword:00000002
+"DefaultSearchProviderEnabled"=dword:00000001
 "DefaultSearchProviderName"="DuckDuckGo"
 "DefaultSearchProviderSearchURL"="url: https://duckduckgo.com/?q={searchTerms}&kp=-2&kz=-1&k1=-1"
 "DiagnosticData"=dword:00000000
