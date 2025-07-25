@@ -155,6 +155,7 @@ Windows Registry Editor Version 5.00
 ; From https://learn.microsoft.com/en-us/deployedge/microsoft-edge-policies
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge]
+"AddressBarMicrosoftSearchInBingProviderEnabled"=dword:00000000
 "AdsSettingForIntrusiveAdsSites"=dword:00000002
 "AlternateErrorPagesEnabled"=dword:00000000
 "BackgroundModeEnabled"=dword:00000000
@@ -167,6 +168,8 @@ Windows Registry Editor Version 5.00
 "CryptoWalletEnabled"=dword:00000000
 "DefaultBrowserSettingsCampaignEnabled"=dword:00000000
 "DefaultNotificationsSetting=dword:00000002
+"DefaultSearchProviderName"="DuckDuckGo"
+"DefaultSearchProviderSearchURL"="url: https://duckduckgo.com/?q={searchTerms}&kp=-2&kz=-1&k1=-1"
 "DiagnosticData"=dword:00000000
 "DiscoverPageContextEnabled"=dword:00000000
 "EdgeCollectionsEnabled"=dword:00000000
@@ -209,7 +212,6 @@ Windows Registry Editor Version 5.00
 "TyposquattingCheckerEnabled"=dword:00000000
 "VisualSearchEnabled"=dword:00000000
 "WalletDonationEnabled"=dword:00000000
-
 
 ; Disable the New Outlook toggle in Outlook Desktop
 ; From https://learn.microsoft.com/en-us/exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/enable-disable-employee-access-new-outlook
