@@ -224,7 +224,7 @@ Windows Registry Editor Version 5.00
 ; Disable OneDrive spam
 ; From https://learn.microsoft.com/en-us/sharepoint/use-group-policy
 
-[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\OneDrive]
 "DisableNewAccountDetection"=dword:00000001
 "DisableTutorial"=dword:00000001
 "KFMBlockOptIn"=dword:00000001
@@ -308,3 +308,15 @@ Windows Registry Editor Version 5.00
 "DisableCocreator"=dword:00000001
 "DisableGenerativeFill"=dword:00000001
 "DisableImageCreator"=dword:00000001
+
+
+; Firefox
+; from https://github.com/mozilla/policy-templates/blob/master/windows/firefox.admx
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Mozilla\Firefox\Permissions\Autoplay]
+"Default"="block-audio-video"
+"Locked"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Mozilla\Firefox\Permissions\Notifications]
+"BlockNewRequests"=dword:00000001
+"Locked"=dword:00000001
