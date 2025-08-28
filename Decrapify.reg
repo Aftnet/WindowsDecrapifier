@@ -316,6 +316,7 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Mozilla\Firefox]
 "DontCheckDefaultBrowser"=dword:00000001
 "NewTabPage"=dword:00000000
+"NoDefaultBookmarks"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Mozilla\Firefox\Permissions\Autoplay]
 "Default"="block-audio-video"
