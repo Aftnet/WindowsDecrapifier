@@ -313,6 +313,10 @@ Windows Registry Editor Version 5.00
 ; Firefox
 ; from https://github.com/mozilla/policy-templates/blob/master/windows/firefox.admx
 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Mozilla\Firefox]
+"DontCheckDefaultBrowser"=dword:00000001
+"NewTabPage"=dword:00000000
+
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Mozilla\Firefox\Permissions\Autoplay]
 "Default"="block-audio-video"
 "Locked"=dword:00000001
