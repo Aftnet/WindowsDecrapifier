@@ -284,6 +284,13 @@ Windows Registry Editor Version 5.00
 "sendtelemetry"=dword:00000001
 
 
+; Disable Office Backstage view
+; from https://www.urtech.ca/2017/03/solved-script-and-gpo-to-disable-backstage-when-saving-in-office-2016/
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Common\General]
+"SkipOpenAndSaveAsPlace"=dword:00000001
+
+
 ; Disable AI in Notepad
 ; from https://learn.microsoft.com/en-us/windows/client-management/manage-notepad?tabs=reg
 
