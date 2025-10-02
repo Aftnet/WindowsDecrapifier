@@ -214,6 +214,7 @@ Windows Registry Editor Version 5.00
 "VisualSearchEnabled"=dword:00000000
 "WalletDonationEnabled"=dword:00000000
 
+
 ; Disable the New Outlook toggle in Outlook Desktop
 ; From https://learn.microsoft.com/en-us/exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/enable-disable-employee-access-new-outlook
 
@@ -289,6 +290,19 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Common\General]
 "SkipOpenAndSaveAsPlace"=dword:00000001
+
+
+; DisableOffice auto-save by default
+; from https://lazyadmin.nl/it/disable-autosave-for-office-365/
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Word]
+"DontAutoSave"=dword:00000001
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Excel]
+"DontAutoSave"=dword:00000001
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Powerpoint]
+"DontAutoSave"=dword:00000001
 
 
 ; Disable AI in Notepad
