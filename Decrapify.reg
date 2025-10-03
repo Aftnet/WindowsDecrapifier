@@ -184,6 +184,7 @@ Windows Registry Editor Version 5.00
 "ExperimentationAndConfigurationServiceControl"=dword:00000000
 "HomepageIsNewTabPage"=dword:00000000
 "HubsSidebarEnabled"=dword:00000000
+"Microsoft365CopilotChatIconEnabled"=dword:00000000
 "MicrosoftEdgeInsiderPromotionEnabled"=dword:00000000
 "MicrosoftEditorProofingEnabled"=dword:00000000
 "MicrosoftEditorSynonymsEnabled"=dword:00000000
