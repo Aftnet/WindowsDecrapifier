@@ -47,6 +47,7 @@ Windows Registry Editor Version 5.00
 "SubscribedContent-88000326Enabled"=dword:00000000
 "SystemPaneSuggestionsEnabled"=dword:00000000
 
+
 ; Disable app launch tracking
 
 [HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\EdgeUI]
@@ -130,6 +131,19 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
 "Start_AccountNotifications"=dword:00000000
 "Start_IrisRecommendations"=dword:00000000
+
+
+; Disable Start menu recommended section
+' from https://www.ntlite.com/community/index.php?threads/new-method-to-hide-the-recommended-section-in-the-w11-start-menu.4841/post-47011
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Explorer]
+"HideRecommendedSection"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PolicyManager\current\device\Start]
+"HideRecommendedSection"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PolicyManager\current\device\Education]
+"IsEducationEnvironment"=dword:00000001
 
 
 ; Disable ads in File Explorer
