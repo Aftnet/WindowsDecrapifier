@@ -352,6 +352,12 @@ Windows Registry Editor Version 5.00
 "DisableImageCreator"=dword:00000001
 
 
+; Disable suggested apps in ink workspace
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\WindowsInkWorkspace]
+"AllowSuggestedAppsInWindowsInkWorkspace"=dword:00000000
+
+
 ; Firefox
 ; from https://github.com/mozilla/policy-templates/blob/master/windows/firefox.admx
 
