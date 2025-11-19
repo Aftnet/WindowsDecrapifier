@@ -268,10 +268,12 @@ Windows Registry Editor Version 5.00
 "DisableClickToDo"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsAI]
+"AllowRecallExport"=dword:00000000
 "AllowRecallEnablement"=dword:00000000
 "DisableAIDataAnalysis"=dword:00000001
 "DisableClickToDo"=dword:00000001
 "DisableCocreator"=dword:00000001
+"DisableSettingsAgent"=dword:00000001
 
 
 ; Disable Click to Do
