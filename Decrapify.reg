@@ -381,6 +381,10 @@ Windows Registry Editor Version 5.00
 "NewTabPage"=dword:00000000
 "NoDefaultBookmarks"=dword:00000001
 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Mozilla\Firefox\AIControls\Default]
+"Locked"=dword:00000001
+"Value"="blocked"
+
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Mozilla\Firefox\Certificates]
 "ImportEnterpriseRoots"=dword:00000001
 
