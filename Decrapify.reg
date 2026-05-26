@@ -172,6 +172,12 @@ Windows Registry Editor Version 5.00
 "NoDriveTypeAutoRun"=dword:000000FF
 
 
+; Disable hiding icons in systray
+; From https://windowsforum.com/threads/windows-11-all-tray-icons.370306/
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer]
+"EnableAutoTray"=dword:00000000
+
 ; Disable Edge tracking/other crap
 ; From https://learn.microsoft.com/en-us/deployedge/microsoft-edge-policies
 
