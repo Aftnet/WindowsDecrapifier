@@ -51,6 +51,13 @@ Windows Registry Editor Version 5.00
 "SystemPaneSuggestionsEnabled"=dword:00000000
 
 
+; Disable automatic app installation from Windows Update drivers
+; from https://www.syxsense.com/syxsense-securityarticles/cis_benchmarks_(windows_server_2025)/syx-1043-18719.html?agt=index
+
+[HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\Device Metadata]
+"PreventDeviceMetadataFromNetwork"=dword:00000001
+
+
 ; Disable app launch tracking
 
 [HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\EdgeUI]
