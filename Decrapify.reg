@@ -58,6 +58,12 @@ Windows Registry Editor Version 5.00
 "PreventDeviceMetadataFromNetwork"=dword:00000001
 
 
+; Disable Thumbs.db on network shares
+; from https://digitash.com/microsoft/microsoft-windows-11-stop-creating-thumbs-db-files/
+[HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\Explorer]
+"DisableThumbsDBOnNetworkFolders"=dword:00000001
+
+
 ; Disable app launch tracking
 
 [HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\EdgeUI]
